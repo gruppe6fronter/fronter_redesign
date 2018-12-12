@@ -1,0 +1,599 @@
+/*gennerelt*/
+
+* {
+    
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+
+header {
+    background-color: black;
+    width: 100vw;
+    height: 22vw;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.hide {
+    display: none; 
+}
+
+/*chat*/
+
+.new_icon {
+    background-image: url(img/compose.svg);
+    background-repeat: no-repeat;
+    width: 7.6vw;
+    height: 7.6vw;
+    position: absolute;
+    top: 7.2vw;
+    right: 7.6vw;
+}
+
+.red_line {
+    background-image: url(img/line-17.svg);
+    position: absolute;
+    top: 15.3vw;
+    left: 43vw;
+    width: 13vw;
+    height: 0.2vw;
+}
+
+.new_message {
+    background: url(img/1-new-message.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 32vw;
+    top: 8.26vw;
+    width: 37vw;
+    height: 6.13vw;
+}
+
+.left-arrow {
+    background: url(img/left-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 7.8vw;
+    right: 90vw;
+    width: 3vw;
+    height: 6.3vw;
+}
+
+.messages {
+    position: absolute;
+    top: 25.6vw;
+    right: 64.5vw;
+    width: 15.7vw;
+    height: 4vw;
+    font-family: Arial;
+    font-size: 3.4vw;
+    color: #fffdfd;
+}
+
+.groups {
+    position: absolute;
+    top: 25.6vw;
+    right: 44vw;
+    width: 11vw;
+  height: 4vw;
+  font-family: Arial;
+  font-size: 3.4vw;
+  color: #707070;
+}
+
+.active {
+    position: absolute;
+    top: 25.6vw;
+    right: 26vw;
+     width: 9vw;
+  height: 4vw;
+  font-family: Arial;
+  font-size: 3.4vw;
+  color: #707070;
+}
+
+.rectangle_red {
+    position: absolute;
+    top:24.8vw;
+    right: 61.8vw;
+    width: 20.8vw;
+  height: 6.1vw;
+  border-radius: 20px;
+  background-color: #ea5045;
+    z-index: -1;
+}
+
+.move {
+    top:24.8vw;
+    right: 39vw;
+    transition: right 0.4s;
+}
+
+.search_field {
+    position: absolute;
+    top: 35vw; 
+    right: 16.7vw;
+    width: 67.8vw;
+  height: 7vw;
+  border-radius: 10px;
+    border: none;
+  background-color: rgba(142, 142, 147, 0.24);
+}
+
+input[type=search] {
+    padding-left: 5.8vw;
+    padding-right: 2.6vw;
+}
+
+input[type=search]::placeholder {
+    font-size: 3.2vw;
+    position: absolute;
+    top:37.30vw;
+    left: 21.33vw;
+}
+
+input[type=search]:focus {
+    outline: -webkit-focus-ring-color auto 0;
+    border: 1px solid #EA5045;
+    transition: border 0.1s linear;
+    
+}
+
+.search_glyph {
+    background-image: url(img/search-glyph.svg);
+    background-repeat: no-repeat;
+    width: 2.6vw;
+    height: 2.6vw;
+    position: absolute;
+    top: 37.3vw;
+    right: 79.7vw; 
+    z-index: 3;
+}
+
+.box1, 
+.box2,
+.box3,
+.box4,
+.box5 {
+    background-color: white;
+    width: 100vw;
+    height: 18.6vw;
+    border-top: 1px solid black;
+    position: relative;
+}
+
+.navn {
+    position: absolute;
+    top: 2.9vw;
+    right: 40.8vw;
+    font-size: 5.3vw;
+    color: black;
+     font-family: Arial;
+}
+
+.box2 .navn {
+    right: 29vw;
+
+}
+
+.box3 .navn {
+    right: 38.4vw;
+
+    
+}
+
+.box4 .navn {
+    right: 46vw;
+
+    
+}
+
+.box5 .navn {
+    right: 53vw;
+    
+}
+
+.box2 .besked {
+    opacity: 0.5;
+}
+.box3 .besked {
+    opacity: 0.5;
+}
+.box4 .besked {
+    opacity: 0.5;
+}
+.box5 .besked {
+    opacity: 0.5;
+}
+
+.besked {
+    position: absolute;
+    top: 8.7vw;
+    left: 21.8vw;
+    font-family: Arial;
+    font-size: 3.4vw;
+    width: 66vw;
+    height: 8vw;
+}
+
+.profil {
+    position: absolute;
+    width: 14.1vw;
+    height: 14.1vw;
+    left: 5.3vw;
+    top: 2.9vw;
+}
+
+.box5 {
+    border-bottom: 1px solid black; 
+}
+
+#message {
+    position: absolute;
+    top: 45.6vw;
+}
+
+
+footer {
+    background-color: rgba(0,0,0,0.08);
+    position: absolute;
+    bottom: 0vw;
+    width: 100vw;
+    height: 8vw;
+}
+
+footer p {
+    position: absolute;
+    left: 5vw;
+    top: 1.3vw;
+    width: 52vw;
+    height: 4.5vw;
+    color: rgba(103,103,103,0.37);
+}
+
+
+/*chat studerende*/
+
+.maria_andersen {
+    background: url(img/maria-andersen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 32vw;
+    top: 8.26vw;
+    width: 37vw;
+    height: 6.13vw;
+}
+
+
+.type_a_message {
+    position: absolute;
+    bottom: 0;
+width: 84vw;
+height: 15vw;
+    padding-left: 14.6vw;
+
+}
+
+
+.type_a_message::placeholder {
+
+    font-size: 4vw;
+    font-family: arial;
+
+    
+}
+
+.emoji {
+    position: absolute;
+    width: 15.76vw;
+    height: 15.2vw;
+    bottom: 0;
+}
+
+.attachment {
+    position: absolute;
+    width: 4.64vw; 
+    height: 4.64vw;
+    bottom: 6vw;
+    right: 15.6vw;
+}
+
+.group_23 {
+    position: absolute;
+    width: 7.8vw; 
+    height: 7.8vw;
+    bottom: 3.9vw;
+    right: 4.4vw;
+}
+
+
+.profil_billede{
+    position: absolute;
+    width: 14vw;
+    height: 14vw;
+    top:32vw;
+    left: 3.4vw;
+}
+
+.besked_fra {
+    position: absolute;
+    width: 58.4VW;
+    height: 11.73vw;
+    top:29.86vw;
+    left: 20.26vw;
+}
+
+
+/*new chat*/
+.new_conversation {
+    position: absolute;
+    background-image: url(img/new-conversation.svg);
+    width: 42.4VW;
+    height: 5.86vw;
+    top: 8.26vw;
+    left: 28.79vw;
+}
+
+.to_chat {
+    position: absolute;
+    top:22.13vw;
+    width: 100vw;
+    height: 8.79vw;
+    border: none; 
+    border-bottom: 1px black solid;
+    padding-left:  10VW;
+}
+
+.to_chat::placeholder {
+    position: absolute;
+    top:25vw;
+    font-size: 5.33vw;
+}
+
+.plus {
+    position: absolute;
+    top: 24.13vw;
+    right: 8vw;
+    width: 4.72VW;
+    height: 4.72VW;
+}
+
+
+/*contacts*/
+
+.new_chat_top h2 {
+    position: absolute;
+width: 71.2VW;
+  height: 6.6vw;
+  font-family: arial;
+  font-size: 5.8vw;
+  font-weight: bold;
+  color: #4d4d4d;
+    top: 29.86vw;
+    left: 14.39vw;
+}
+
+.new_chat_top p {
+    position: absolute;
+width: 58.4VW;
+  height: 3.2VW;
+  font-family: arial;
+  font-size: 2.9vw;
+  font-weight: bold;
+  color: #4d4d4d;
+top: 36.26vw;
+    left: 18.93vw;
+}
+
+
+.alfa li:first-child {
+    position: absolute;
+    width: 6.93vw;
+  height: 10.93vw;
+  font-family: Arial;
+  font-size: 9.6VW;
+  font-weight: bold;
+  color: #4d4d4d;
+    top: 41.86vw;
+    left: 5.33vw;
+}
+
+.alfa .a {
+    position: absolute;
+    width: 89.60vw;
+  height: 72.53vw;
+    top: 54.93vw;
+    left: 6.13vw;
+}
+
+.alfa .b {
+    position: absolute;
+    width: 85.33vw;
+  height: 72.53vw;
+    top: 154.4VW;
+    left: 6.13vw;
+}
+
+.alfa .b1 {
+    position: absolute;
+    width: 6.93vw;
+  height: 10.93vw;
+  font-family: Arial;
+  font-size: 9.6VW;
+  font-weight: bold;
+  color: #4d4d4d;
+    top:141.33vw;
+    left: 5.33vw;
+    
+}
+
+
+/*chat_groups */
+
+
+.dark{
+    color: #707070;
+}
+
+.white {
+    color: white;
+}
+
+.gruppe {
+    position: absolute;
+    top: 2.9vw;
+    right: 56vw;
+    font-size: 5.3vw;
+    color: black;
+     font-family: Arial;
+}
+
+.box2 .gruppe {
+    right: 56vw;
+    opacity: 0.5;
+}
+
+.box3 .gruppe {
+    right: 56vw;
+    opacity: 0.5;
+    
+}
+
+.box4 .gruppe {
+    right: 53.33vw;
+    opacity: 0.5;
+    
+}
+
+.box5 .gruppe {
+    right: 56.26vw;
+    opacity: 0.5;
+    
+}
+
+.box2 .besked {
+    opacity: 0.5;
+}
+.box3 .besked {
+    opacity: 0.5;
+}
+.box4 .besked {
+    opacity: 0.5;
+}
+.box5 .besked {
+    opacity: 0.5;
+}
+
+
+
+
+/*login page*/
+
+.uni_login {
+    position: absolute;
+    top: 78vw;
+    right: 22vw;
+}
+
+
+.header_gallery {
+    background-image: url(img/login_billede.svg);
+    background-repeat: no-repeat;
+    background-size: 180%;
+    width: 100%;
+    height: 58.24vw;
+}
+
+.keaLogo {
+    background-image: url(img/keaLogo.svg);
+    width: 83.3vw;
+    height: 21.04vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 8.2vw;
+    top: 46.5vw;
+}
+
+
+.uni_login {
+    width: 55.2vw;
+    height: 14.9vw;
+    position: absolute;
+    left: 22.4vw;
+    top: 78.6vw;
+}
+
+.username {
+    position: absolute;
+    top: 101.6VW;
+    left: 12.5vw;
+    width: 74.9vw;
+    height: 14.9vw;
+    border: 1px solid rgb(206, 205, 205);
+    font-size: 5.3vw;
+    padding-left: 2.6vw;
+    text-decoration-color: rgb(178, 177, 177);
+}
+
+
+.password {
+    position: absolute;
+    top: 123.4vw;
+    left: 12.5vw;
+    width: 74.9vw;
+    height: 14.9vw;
+    border: 1px solid rgb(206, 205, 205);
+    font-size: 5.3vw;
+    padding-left: 2.6vw;
+
+}
+
+::placeholder {
+    color: rgb(178, 177, 177);
+}
+
+input:focus {
+    outline: -webkit-focus-ring-color auto 0;
+    border: 1px solid #EA5045;
+    transition: border 0.1s linear;
+}
+
+.forgot {
+    font-size: 5.3vw;
+    line-height: 5.8vw;
+    font-family: arial;
+    color: rgb(208, 207, 207);
+    text-decoration: none;
+    position: absolute;
+    top: 146vw;
+    left: 35vw;
+}
+
+
+.login {
+    position: absolute;
+    top: 159vw;
+    left: 9.8vw;
+    width: 80.2vw;
+    height: 11vw;
+    background: black;
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+    font-family: arial;
+    font-weight: lighter;
+    text-transform: uppercase;
+
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.5 17.5">
+    <defs>
+        <style>
+            .cls-1,.cls-2,.cls-4,.cls-5,.cls-6{fill:none}.cls-1,.cls-2{stroke:#a0a9b0}.cls-2{stroke-width:2px}.cls-3{stroke:none}.cls-5{clip-path:url(#clip)}.cls-6{clip-path:url(#clip-2)}
+        </style>
+        <clipPath id="clip">
+            <use xlink:href="#fill"/>
+        </clipPath>
+        <clipPath id="clip-2">
+            <use xlink:href="#fill-2"/>
+        </clipPath>
+    </defs>
+    <g id="plus" transform="translate(-337 -90.5)">
+        <g id="Ellipse_1" class="cls-1" data-name="Ellipse 1" transform="translate(337 90.5)">
+            <circle cx="8.75" cy="8.75" r="8.75" class="cls-3"/>
+            <circle cx="8.75" cy="8.75" r="8.25" class="cls-4"/>
+        </g>
+        <g id="Rectangle_3" class="cls-2" data-name="Rectangle 3" transform="translate(345.235 95.132)">
+            <path id="fill" d="M0 0h1.029v8.235H0z" class="cls-3"/>
+            <path d="M0 1h1.03M1 0v8.235m.03-1H0m.03 1V0" class="cls-5"/>
+        </g>
+        <g id="Rectangle_3_copy" class="cls-2" data-name="Rectangle 3 copy" transform="translate(341.632 98.735)">
+            <path id="fill-2" d="M0 0h8.235v1.029H0z" class="cls-3"/>
+            <path d="M0 .03h8.235m-1-.03v1.03m1-.03H0m1 .03V0" class="cls-6"/>
+        </g>
+    </g>
+</svg>

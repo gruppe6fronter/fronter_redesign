@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10.351 10.351">
+    <defs>
+        <style>
+            .cls-1{fill:rgba(0,0,0,0)}.cls-2{fill:#8e8e93}
+        </style>
+    </defs>
+    <g id="Search_Glyph" data-name="Search Glyph">
+        <path id="Search_Glyph_background" d="M0 0h10.351v10.351H0z" class="cls-1" data-name="Search Glyph background"/>
+        <path id="Search" d="M9.74 10.35a.614.614 0 0 1-.442-.189L6.466 7.328a3.972 3.972 0 0 1-2.381.785h-.019a4.074 4.074 0 0 1-2.891-6.934A4.049 4.049 0 0 1 4.02 0h.017A4.09 4.09 0 0 1 8.1 4.072a3.982 3.982 0 0 1-.777 2.39L10.161 9.3a.611.611 0 0 1-.421 1.05zM4.025.812a3.235 3.235 0 0 0-2.258 5.532 3.253 3.253 0 0 0 2.3.96h.012A3.246 3.246 0 0 0 4.04.812z" class="cls-2"/>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 218.969 43.957">
+    <defs>
+        <style>
+            .cls-1{fill:#ea5045}.cls-2{fill:#fffdfd;font-size:12px;font-family:ArialMT,Arial}
+        </style>
+    </defs>
+    <g id="Group_27" data-name="Group 27" transform="translate(-76.031 -112)">
+        <rect id="Rectangle_22" width="218.969" height="43.957" class="cls-1" data-name="Rectangle 22" rx="5" transform="translate(76.031 112)"/>
+        <text id="Lorem_ipsum_dolor_sit_amet_consetetur_sadipscing_elitr_sed_diam_nonumy_eirmod." class="cls-2" data-name="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod." transform="translate(86.357 119.768)">
+            <tspan x="0" y="11">Lorem ipsum dolor sit amet, </tspan><tspan x="0" y="25">consetetur sadipscing elitr, sed diam</tspan>
+        </text>
+    </g>
+</svg>

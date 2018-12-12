@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 207 56">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(105,89,106,0.66);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 20px;
+        font-family: ArialMT, Arial;
+      }
+    </style>
+  </defs>
+  <g id="Group_26" data-name="Group 26" transform="translate(-84 -295)">
+    <path id="Path_104" data-name="Path 104" class="cls-1" d="M0,0H207V56H0Z" transform="translate(84 295)"/>
+    <text id="UNI_LOGIN" data-name="UNI LOGIN" class="cls-2" transform="translate(137 329.632)"><tspan x="0" y="0">UNI LOGIN</tspan></text>
+  </g>
+</svg>

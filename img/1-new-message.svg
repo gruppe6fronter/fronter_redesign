@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141 24">
+    <defs>
+        <style>
+            .cls-1{fill:#fffdfd;font-size:20px;font-family:HelveticaNeue,Helvetica Neue}
+        </style>
+    </defs>
+    <text id="_1_new_message" class="cls-1" data-name="1 new message" transform="translate(0 19)">
+        <tspan x="0" y="0">1 new message</tspan>
+    </text>
+</svg>
