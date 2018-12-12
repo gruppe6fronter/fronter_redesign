@@ -6,9 +6,10 @@
 }
 
 body {
-    height: 100%;
     width: 100%;
+    height: 100vh;
     margin: 0;
+    margin-bottom: 5.33vw;
 }
 
 
@@ -597,3 +598,49 @@ input:focus {
     text-transform: uppercase;
 
 }
+
+
+/*forgot login*/
+.send_email_btn {
+    font-size: 5.33vw;
+    color: white;
+    background-color: black;
+    width: 80.26vw;
+    height: 11.20vw;
+    position: absolute;
+    top: 153.06vw;
+    left: 9.86vw;
+}
+
+
+.instructions {
+    position: absolute;
+    width: 77.33vw;
+    height: 40.53vw;
+    top:103.73vw;
+    right: 11.20vw;
+    text-align: center;
+    font-size: 4vw;
+    font-family: arial;
+    color: #b2b1b1;
+}
+
+.send_email {
+    width: 71.2VW;
+    height: 14.93vw;
+    position: absolute;
+    top: 82.13vw;
+    left: 12.53vw;
+    border: 1px solid #cecdcd;
+    font-size: 5.33vw;
+    padding-left: 3.73vw;
+
+
+}
+
+.send_email::placeholder {
+    font-size: 5.33vw;
+
+}
+
+
