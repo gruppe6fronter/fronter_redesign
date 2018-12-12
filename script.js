@@ -61,3 +61,4 @@ function nyChat(){
 function contacts() {
     window.location.replace("contacts.html");
 }
+

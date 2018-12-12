@@ -540,7 +540,7 @@ top: 36.26vw;
     position: absolute;
     top: 101.6VW;
     left: 12.5vw;
-    width: 74.9vw;
+    width: 71.2VW;
     height: 14.9vw;
     border: 1px solid rgb(206, 205, 205);
     font-size: 5.3vw;
@@ -553,12 +553,19 @@ top: 36.26vw;
     position: absolute;
     top: 123.4vw;
     left: 12.5vw;
-    width: 74.9vw;
+    width: 71.2VW;
     height: 14.9vw;
     border: 1px solid rgb(206, 205, 205);
     font-size: 5.3vw;
     padding-left: 2.6vw;
+}
 
+.show {
+    position: absolute;
+    top: 129vw;
+    left: 70vw;
+    font-family: arial;
+    color: #b2b1b1;
 }
 
 ::placeholder {
