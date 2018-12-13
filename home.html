@@ -1,31 +1,282 @@
 <!DOCTYPE html>
 <html lang="">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title></title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
 </head>
 
 <body>
-   <header>
-       <img src="" alt="" class="profil">
-       <img src="" alt="" class="kea_logo">
-       <div class="burger_menu"></div> 
-   </header>
-   
-   <div class="uge_oversigt">
-       <a href="#">UGE 49</a>
-   </div>
-   <div class="dags_oversigt"></div>
-   <div class="feed"></div>
-   <div class="chat">
-       <a href="chat.html" class="chat">CHAT</a>
-   </div>
-   <div class="afleveringer">
-       <a href="afleveringer.html" class="afleveringer">AFLEVERINGER</a>
-   </div>
-   
-    <script src=""></script>
+    <header>
+        <img src="img/profil.svg" alt="" class="profil">
+        <a href="home.html"><img src="img/kea%20_logo_login.svg" alt="" class="kea_logo"></a>
+
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active"></a>
+            <a href="home.html">FORSIDE</a>
+            <a href="skema.html">SKEMA</a>
+            <a href="chat.html">CHAT</a>
+            <a href="afleveringer.html">AFLEVERINGER</a>
+            <a href="kontakt.html">KONTAKT</a>
+            <a href="semesterinformation.html">SEMESTER INFORMATION</a>
+            <a href="index.html">LOG UD</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+
+    </header>
+
+    <div class="uge_oversigt">
+        <ul>
+            <li class="prev"><img src="img/black%20left%20arrow.svg"></li>
+            <li class="next"><img src="img/black%20right%20arrow.svg"></li>
+            <li class="uge_overskrift">uge 49</li>
+        </ul>
+
+        <ul class="weekdays1">
+            <li>10</li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li>14</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="dangensskema">
+
+        <div class="dagensdato">
+            <div class="dagensdato_left">
+                <h1>TIR</h1>
+                <p class="home">10 DEC</p>
+                <h2>2018</h2>
+            </div>
+
+            <div class="dagensdato_right">
+                <p class="home">TEMA: UX</p>
+                <p class="home">LOKALE: URANUS</p>
+                <p class="home">UNDERVISER MACD</p>
+            </div>
+        </div>
+
+        <div class="timefortime_bg_udvid">
+            <div class="timefortime_udvid">
+                <p class="home">08:30 - 09:15</p>
+                <p class="home">DESIGN SPRINT</p>
+            </div>
+            <p class="timefortime_panel hide">I dag arbejder vi med UX design og
+Googles Design Sprint samt
+“Crazy 8” - så husk skriveredskaber.
+
+I skal medbringe de post-its som i
+lavede i går.
+
+
+
+</p>
+
+        </div>
+        <div class="timefortime_bg">
+            <div class="timefortime">
+                <p class="home">09:15 - 10:00</p>
+                <p class="home">DESIGN SPRINT</p>
+            </div>
+        </div>
+        <div class="panel1 hide">
+            <div class="intro_bg">
+                <div class="timefortime_intro">
+                    <p class="home">10:15 - 11:00</p>
+                    <p class="home">INTRO - CRAZY 8</p>
+                </div>
+            </div>
+            <div class="brugertest_bg">
+                <div class="timefortime_brugertest">
+                    <p class="home">11:00 - 11:45</p>
+                    <p class="home">BRUGERTEST</p>
+                </div>
+            </div>
+
+            <div class="evaluering_bg">
+                <div class="timefortime_evaluering">
+                    <p class="home">12:30 - 13:15</p>
+                    <p class="home">EVALUERING</p>
+                </div>
+            </div>
+            <div class="groupwork_gb">
+                <div class="timefortime_groupwork">
+                    <p class="home">13:15 - </p>
+                    <p class="home">GRUPPEARBEJDE</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <button class="accordion">
+        <div class="arrowdown">
+            <img src="img/arrow.svg">
+        </div>
+
+    </button>
+
+
+
+
+    <div class="feed">
+        <div class="feed_overskrift">
+            <p class="home">FEED</p>
+        </div>
+        <div class="feed_text">
+
+            <p class="home">Basic UX - uge 3</p>
+            <p class="home">I denne uge arbedejder vi med at kode en html prototype på et nyt Fronter. I er kommet i arbejdsgrupper her mandag, som i arbejder videre i denne uge.</p>
+        </div>
+
+        <div class="panel2 hide">
+
+            <p class="home">Hvis du har været syg mandag, så kontakt Anders - andd@kea.dk
+
+                Anders Dollerup
+            </p>
+        </div>
+        <button class="accordion_feed">
+            <div class="arrowdown_feed">
+                <img src="img/arrow.svg">
+            </div>
+
+
+        </button>
+
+    </div>
+
+
+
+
+    <div class="chat_home">
+        <a href="chat.html" class="chat_home">
+            <div class="overskrifter">
+                <p class="home">CHAT</p>
+            </div>
+        </a>
+    </div>
+    <div class="afleveringer">
+        <a href="afleveringer.html" class="afleveringer">
+            <div class="overskrifter">
+                <p class="home">AFLEVERINGER</p>
+            </div>
+
+        </a>
+    </div>
+
+    <script>
+        /////////////////////dagensskema ///////////
+
+        document.querySelector(".accordion").addEventListener("click", expandPanel);
+        document.querySelector(".dangensskema").style.height = "35vh";
+        document.querySelector(".accordion").style.top = "96vw";
+
+        function hidePanel() {
+            document.querySelector(".accordion").removeEventListener("click", hidePanel);
+            document.querySelector(".accordion").addEventListener("click", expandPanel);
+            document.querySelector(".arrowdown").classList.toggle("arrowdown_ned");
+            document.querySelector(".dangensskema").style.height = "35vh";
+            document.querySelector(".accordion").style.top = "96vw";
+            document.querySelector(".panel1").classList.toggle("hide");
+        }
+
+        function expandPanel() {
+            document.querySelector(".accordion").removeEventListener("click", expandPanel);
+            document.querySelector(".accordion").style.top = "160vw";
+            document.querySelector(".dangensskema").style.height = "67vh";
+            document.querySelector(".arrowdown").classList.toggle("arrowdown_ned");
+
+            document.querySelector(".accordion").addEventListener("click", hidePanel);
+        }
+
+
+        ///////////////////////feed////////////////
+
+        document.querySelector(".accordion_feed").addEventListener("click", expandFeed);
+        document.querySelector(".feed").style.height = "36vw";
+        document.querySelector(".accordion_feed").style.top = "0vw";
+
+        function expandFeed() {
+            document.querySelector(".accordion_feed").removeEventListener("click", expandFeed);
+
+
+            document.querySelector(".accordion_feed").addEventListener("click", hideFeed);
+            document.querySelector(".panel2").classList.toggle("hide")
+            document.querySelector(".feed").style.height = "53vw";
+            document.querySelector(".accordion_feed").style.top = "18vw";
+            document.querySelector(".arrowdown_feed").classList.toggle("arrowdown_ned");
+            }
+
+
+        function hideFeed(){
+              document.querySelector(".accordion_feed").removeEventListener("click", hideFeed);
+                        document.querySelector(".feed").style.height = "36vw";
+            document.querySelector(".accordion_feed").style.top = "0vw";
+            document.querySelector(".accordion_feed").addEventListener("click", expandFeed);
+
+            document.querySelector(".panel2").classList.toggle("hide")
+
+ document.querySelector(".arrowdown_feed").classList.toggle("arrowdown_ned");
+
+        }
+
+
+////////////////////modul//////////////////////
+ document.querySelector(".timefortime_bg_udvid").addEventListener("click", expandModul);
+        document.querySelector(".timefortime_bg_udvid").style.height = "10vw;";
+
+
+        function expandModul() {
+            document.querySelector(".timefortime_bg_udvid").removeEventListener("click", expandModul);
+            document.querySelector(".timefortime_bg_udvid").addEventListener("click", hideModul);
+        document.querySelector(".dangensskema").style.height = "85vh";
+        document.querySelector(".accordion").style.top = "200vw";
+     document.querySelector(".timefortime_bg_udvid").style.height = "54.50vw";
+     document.querySelector(".timefortime_panel").classList.toggle("hide")
+            document.querySelector(".panel1").classList.toggle("hide");
+
+        }
+
+        function hideModul() {
+             document.querySelector(".timefortime_bg_udvid").removeEventListener("click", hideModul);
+            document.querySelector(".timefortime_bg_udvid").addEventListener("click", expandModul);
+
+        document.querySelector(".dangensskema").style.height = "67vh";
+        document.querySelector(".accordion").style.top = "160vw";
+     document.querySelector(".timefortime_bg_udvid").style.height = "10vw";
+document.querySelector(".timefortime_panel").classList.toggle("hide")
+
+        }
+
+    </script>
+
+
+
+
+
+    <script src="img/"></script>
 </body>
+
 </html>

@@ -1,85 +1,208 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
 </head>
 
 <body>
-  <header>
-       <img src="" alt="" class="profil">
-       <img src="" alt="" class="kea_logo">
-       <div class="burger_menu"></div> 
-   </header>
-   
-   <div class="month">
-       <ul>
-           <li class=""></li>
-           <li class=""></li>
-           
-           
-       </ul>
-   </div>
-   <ul class="weekdays">
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-   </ul>
-   <ul class="weeks">
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-   </ul>
-   
-   <ul class="days">
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       
-   </ul>
-   
-    <script src=""></script>
+    <header>
+        <img src="img/profil.svg" alt="" class="profil">
+        <a href="home.html"><img src="img/kea%20_logo_login.svg" alt="" class="kea_logo"></a>
+
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active"></a>
+            <a href="home.html">FORSIDE</a>
+            <a href="skema.html">SKEMA</a>
+            <a href="chat.html">CHAT</a>
+            <a href="afleveringer.html">AFLEVERINGER</a>
+            <a href="kontakt.html">KONTAKT</a>
+            <a href="semesterinformation.html">SEMESTER INFORMATION</a>
+            <a href="index.html">LOG UD</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+
+    </header>
+
+
+    <div class="month1">
+        <ul>
+            <li class="prev">&#10094;</li>
+            <li class="next">&#10095;</li>
+            <li>DECEMBER 2018</li>
+        </ul>
+    </div>
+    <ul class="weekdays">
+
+        <li>M</li>
+        <li>T</li>
+        <li>O</li>
+        <li>T</li>
+        <li>F</li>
+        <li>L</li>
+        <li>S</li>
+    </ul>
+
+    <div class="daysandweeks">
+        <ul class="weeks">
+            <li>47</li>
+            <li>48</li>
+            <li>49</li>
+            <li>50</li>
+            <li>51</li>
+            <li>52</li>
+        </ul>
+
+        <ul class="days">
+            <li class="opacity_50">26</li>
+            <li class="opacity_50">27</li>
+            <li class="opacity_50"> 28</li>
+            <li class="opacity_50">29</li>
+            <li class="opacity_50">30</li>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li>10</li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li>14</li>
+            <li>15</li>
+            <li>16</li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li>20</li>
+            <li>21</li>
+            <li>22</li>
+            <li>23</li>
+            <li>24</li>
+            <li>25</li>
+            <li>26</li>
+            <li>27</li>
+            <li>28</li>
+            <li>29</li>
+            <li>30</li>
+            <li>31</li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="skema">
+
+        <div class="dagensdato">
+            <div class="dagensdato_left">
+                <h1>TIR</h1>
+                <p>10 DEC</p>
+                <h2>2018</h2>
+            </div>
+
+            <div class="dagensdato_right">
+                <p>TEMA: UX</p>
+                <p>LOKALE: URANUS</p>
+                <p>UNDERVISER MACD</p>
+            </div>
+        </div>
+
+
+        <div class="timefortime_bg">
+            <div class="timefortime">
+                <p>08:30 - 09:15</p>
+                <p>DESIGN SPRINT</p>
+            </div>
+        </div>
+        <div class="timefortime_bg">
+            <div class="timefortime">
+                <p>09:15 - 10:00</p>
+                <p>DESIGN SPRINT</p>
+            </div>
+        </div>
+<div class="time_et"></div>
+
+    <div class="time_to">
+        <div class="intro_bg">
+            <div class="timefortime_intro">
+                <p>10:15 - 11:00</p>
+                <p>INTRO - CRAZY 8</p>
+            </div>
+        </div>
+
+
+        <div class="brugertest_bg">
+            <div class="timefortime_brugertest">
+                <p>11:00 - 11:45</p>
+                <p>BRUGERTEST</p>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="time_et"></div>
+
+        <div class="evaluering_bg">
+            <div class="timefortime_evaluering">
+                <p>12:30 - 13:15</p>
+                <p>EVALUERING</p>
+            </div>
+        </div>
+        <div class="groupwork_gb">
+            <div class="timefortime_groupwork">
+                <p>13:15 - </p>
+                <p>GRUPPEARBEJDE</p>
+            </div>
+        </div>
+
+
+          <div class="aflvereringsboks">
+            <div class="timefortime_afleveringsboks">
+                <p>Aflevering - 02_01_05 </p>
+
+            </div>
+        </div>
+
+
+          <div class="dagens_dokumenter">
+            <div class="timefortime_dagensdokumenter">
+                <p>Dagens dokumenter:</p>
+                <a href="">docs_slide_sprint</a><br>
+                <a href="">pdf_sprint</a><br><br>
+                 <p>Dagens lektie:</p>
+              <a href="">youtube.com/sprint</a><br>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="img/"></script>
 </body>
+
 </html>

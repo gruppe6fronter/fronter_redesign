@@ -13,11 +13,43 @@ body {
 }
 
 
-header {
+.header_chat {
     background-color: black;
     width: 100vw;
     height: 22vw;
 }
+
+header {
+
+    background-color: black;
+    width: 72.95vx;
+    height: 20vw;
+    position: relative;
+
+
+}
+
+.kea_logo {
+
+    position: absolute;
+    background-size: 100%;
+    left: 19vw;
+    top: -7.5vw;
+    z-index: 3;
+
+}
+
+.profil {
+
+    position: absolute;
+    background-size: 100%;
+    left: -2vw;
+    top: 0vw;
+    z-index: 1;
+    height: 20vw;
+
+}
+
 
 
 ul {
@@ -26,6 +58,44 @@ ul {
 
 .hide {
     display: none; 
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    font-family: arial;
+    text-align: right;
+    margin: -3vw;
+
+
+}
+
+h2 {
+
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    font-family: arial;
+    text-align: right;
+    margin: -3vw;
+
+}
+
+.home {
+
+    color: white;
+    text-align: center;
+    font-family: arial;
+    text-align: left;
+
+}
+
+
+a {
+    text-decoration: none;
+    font-family: arial;
+    text-align: center;
 }
 
 /*chat*/
@@ -93,7 +163,7 @@ ul {
   color: #707070;
 }
 
-.active {
+.active_chat {
     position: absolute;
     top: 25.6vw;
     right: 26vw;
@@ -205,7 +275,7 @@ input[type=search]:focus {
     
 }
 
-.box2 .besked {
+.box2 .besked  {
     opacity: 0.5;
 }
 .box3 .besked {
@@ -218,7 +288,7 @@ input[type=search]:focus {
     opacity: 0.5;
 }
 
-.besked {
+.besked   {
     position: absolute;
     top: 8.7vw;
     left: 21.8vw;
@@ -228,7 +298,7 @@ input[type=search]:focus {
     height: 8vw;
 }
 
-.profil {
+.profil_chat {
     position: absolute;
     width: 14.1vw;
     height: 14.1vw;
@@ -620,7 +690,7 @@ input:focus {
 }
 
 
-.instructions {
+.instructions p {
     position: absolute;
     width: 77.33vw;
     height: 40.53vw;
@@ -649,5 +719,1108 @@ input:focus {
     font-size: 5.33vw;
 
 }
+
+
+/* ------------------------ Menu bar ------------------------------ */
+
+.topnav {
+    overflow: visible;
+    background-color: black;
+    width: 50vw;
+    position: absolute;
+    left: 49.9vw;
+    z-index: 2;
+
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: black;
+    color: white;
+    margin-bottom: 13vw;
+    position: relative;
+}
+
+.topnav .icon {
+    margin-top: 4vw;
+    margin-right: 4vw;
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+
+
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: absolute;
+
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        float: left;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 387px) {
+    .active {
+    margin-bottom: 12vw;
+
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .active {
+    margin-bottom: 11vw;
+
+    }
+
+    .kea_logo {
+
+    position: absolute;
+    background-size: 100%;
+    left: 14vw;
+    top: -10vw;
+    z-index: 3;
+
+}
+}
+
+@media screen and (max-width: 426px) {
+
+
+    .kea_logo {
+
+    position: absolute;
+    background-size: 100%;
+    left: 22vw;
+    top: -5vw;
+    z-index: 3;
+
+}
+}
+
+
+
+
+/* ------------------------ UGESOVERSIGT ------------------------------ */
+
+.uge_oversigt {
+    width: 90vw;
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+    margin-left: 5vw;
+}
+
+.uge_oversigt ul {
+    padding: 0;
+}
+
+ul .uge_overskrift {
+    color: black;
+    text-transform: uppercase;
+    transform: scale(0.7);
+    padding-bottom: 1.1vw;
+
+}
+
+.uge_oversigt li {
+    color: black;
+    font-size: 4.25vw;
+    text-transform: uppercase;
+    font-family: arial;
+    letter-spacing: 3px;
+
+    list-style: none;
+}
+
+
+.uge_oversigt .prev {
+    float: left;
+    margin-top: 4vw;
+
+}
+
+.uge_oversigt .next {
+    float: right;
+    margin-top: 4vw;
+
+}
+
+.weekdays1 {
+    padding: 5px 15px;
+}
+
+.weekdays1 li {
+    display: inline-block;
+    width: 5vw;
+    color: #666;
+    text-align: center;
+    border-bottom: 0.1vw solid black;
+    padding: 1vw;
+    margin: 2vw;
+    margin-top: -10vw;
+
+}
+
+.weekdays1 li:first-child {
+    border: 0.1vw solid red;
+
+}
+
+.weekdays1 li:hover {
+    border-bottom: none;
+    border: 0.1vw solid red;
+    cursor: pointer;
+
+}
+
+
+/* ------------------------ DAGSOVERSIGT ------------------------------ */
+
+.accordion {
+    background-color: black;
+    position: absolute;
+/*    top: 96vw;*/
+    color: #444;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    width: 90vw;
+    height: 10vw;
+    margin: 5vw;
+}
+
+.dangensskema {
+    background-color: black;
+    color: #444;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    width: 90vw;
+    height: 35vh;
+    margin: 5vw;
+    margin-bottom: 3.5vw;
+}
+
+
+
+
+.arrowdown {
+    padding-left: 34.5vw;
+}
+
+
+.arrowdown_feed {
+    padding-left: 34.5vw;
+}
+
+.arrowdown_ned {
+    transform: rotate(180deg);
+    transform-origin: center center;
+}
+
+.chat_home
+
+
+.arrowup {
+    padding-left: 31vw;
+
+}
+
+.arrowdown_up {
+    position: absolute;
+    top: 130vw;
+
+
+
+}
+
+
+.panel1 {
+    background-color: black;
+    width: 80vw;
+
+}
+
+.hide {
+    display: none;
+}
+
+.accordion_feed {
+    background-color: #EA5045;
+    position: relative;
+/*    top: 18vw;*/
+    color: #444;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    width: 90vw;
+    height: 10vw;
+    }
+
+
+.panel2 {
+    background-color: #EA5045;
+    position: absolute;
+    padding: 5vw;
+    width: 80vw;
+    font-size: 12px;
+}
+
+.panel2 p {
+    margin-left: -2.1vw;
+}
+
+
+.timefortime_bg_udvid {
+    background: rgba(255, 255, 255, 0.25);
+    width: 80vw;
+/*    height: 54.50vw;*/
+    padding: 1vw;
+    margin: 2.5vw;
+    border-radius: 8px;
+color: white;
+    font-family: arial;
+}
+
+.timefortime_panel{
+    position: absolute;
+    top:86.25VW;
+    right: 30VW;
+    width:  60VW;
+    height: 42.5VW;
+}
+
+.timefortime_udvid {
+    justify-content: space-between;
+    width: 60vw;
+    height: 10vw;
+    display: flex;
+    margin-left: 1vw;
+    margin-top: -1vw;
+    font-size: 3.75VW;
+    margin-top: 3.2vw;
+    color: white;
+    font-family: arial;
+}
+
+
+.timefortime_bg {
+    background: rgba(255, 255, 255, 0.25);
+    width: 80vw;
+    height: 10vw;
+    padding: 1vw;
+    margin: 2.5vw;
+    border-radius: 8px;
+color: white;
+    font-family: arial;
+}
+
+.timefortime {
+    justify-content: space-between;
+    width: 60vw;
+    height: 10vw;
+    display: flex;
+    margin-left: 1vw;
+    margin-top: -1vw;
+    font-size: 3.75VW;
+    margin-top: 3.2vw;
+    color: white;
+    font-family: arial;
+}
+
+.evaluering_bg {
+
+    background: rgba(255, 255, 255, 0.25);
+    width: 80vw;
+    height: 10vw;
+    padding: 1vw;
+    margin-bottom: 2.5vw;
+    border-radius: 8px;
+margin-left: 3vw;
+    color: white;
+    font-family: arial;
+
+}
+
+.timefortime_evaluering {
+    justify-content: space-between;
+    width: 53.4vw;
+    height: 10vw;
+    display: flex;
+    margin-left: 1vw;
+    margin-top: -1vw;
+    font-size: 3.75VW;
+    margin-top: 3.2vw;
+    color: white;
+    font-family: arial;
+
+}
+
+.intro_bg {
+    background: rgba(255, 255, 255, 0.25);
+    width: 80vw;
+    height: 10vw;
+    padding: 1vw;
+    border-radius: 8px;
+    margin-bottom: 2.5vw;
+    margin-left: 3vw;
+    color: white;
+    font-family: arial;
+}
+
+.timefortime_intro {
+    justify-content: space-between;
+    width: 60vw;
+    height: 10vw;
+    display: flex;
+    margin-left: 1vw;
+    margin-top: -1vw;
+    font-size: 3.75VW;
+    margin-top: 3.2vw;
+    color: white;
+    font-family: arial;
+
+}
+
+.brugertest_bg {
+
+    background: rgba(255, 255, 255, 0.25);
+    width: 80vw;
+    height: 10vw;
+    padding: 1vw;
+    margin-bottom: 2.5vw;
+    border-radius: 8px;
+    margin-left: 3vw;
+    color: white;
+    font-family: arial;
+
+}
+
+.timefortime_brugertest {
+    justify-content: space-between;
+    width: 55vw;
+    height: 10vw;
+    display: flex;
+    margin-left: 1vw;
+    margin-top: -1vw;
+    font-size: 3.75VW;
+    margin-top: 3.2vw;
+    color: white;
+    font-family: arial;
+}
+
+.groupwork_gb {
+
+    background: rgba(255, 255, 255, 0.4);
+    width: 80vw;
+    height: 10vw;
+    padding: 1vw;
+    margin-left: 3vw;
+    border-radius: 8px;
+    margin-bottom: 2.5vw;
+    color: white;
+    font-family: arial;
+
+}
+
+.timefortime_groupwork {
+    justify-content: space-between;
+    width: 62.4vw;
+    height: 10vw;
+    display: flex;
+    margin-left: 1vw;
+    margin-top: -1vw;
+    font-size: 3.75VW;
+    margin-top: 3.2vw;
+    color: white;
+    font-family: arial;
+}
+
+.aflvereringsboks {
+    background: rgba(255, 255, 255, 0.65);
+    width: 80vw;
+    height: 10vw;
+    padding: 1vw;
+    margin-left: 3vw;
+    border-radius: 8px;
+    margin-bottom: 2.5vw;
+    color: white;
+    font-family: arial;
+
+}
+
+.timefortime_afleveringsboks {
+    justify-content: space-between;
+    width: 62.4vw;
+    height: 10vw;
+    display: flex;
+    margin-left: 1vw;
+    margin-top: -1vw;
+    font-size: 3.75VW;
+    margin-top: 3.2vw;
+    font-family: arial;
+}
+
+.dagens_dokumenter {
+    background: rgba(162, 156, 156, 0.56);
+    width: 80vw;
+    height: 33vw;
+    padding: 1vw;
+    margin-left: 3vw;
+    border-radius: 8px;
+    margin-bottom: 2.5vw;
+    font-family: arial;
+    color: white;
+    font-family: arial;
+
+}
+
+.timefortime_dagensdokumenter {
+
+    width: 62.4vw;
+    height: 30vw;
+    margin-left: 1vw;
+    margin-top: -1vw;
+    font-size: 3.75VW;
+    margin-top: 3.2vw;
+    color: white;
+    font-family: arial;
+}
+
+.dagens_dokumenter a {
+
+    color: #2478cc;
+}
+
+.dagensdato {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -2vw;
+
+}
+
+.dagensdato_right {
+
+    width: 10vw;
+    height: 19vw;
+    flex-wrap: wrap;
+    flex-grow: 5;
+    padding-left: 3vw;
+    margin-top: 2vw;
+    margin: 2vw;
+    font-size: 4VW;
+    padding-top: 3.75VW;
+    margin-top: 5vw;
+    color: white;
+    font-family: arial;
+
+}
+
+.dagensdato_left {
+
+    width: 10vw;
+    height: 16vw;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    border-right: 0.1vw solid white;
+    margin-top: 5vw;
+    text-align-last: center;
+    padding: 2vw;
+    padding-top: 4vw;
+    line-height: 8.75VW;
+    color: white;
+    font-family: arial;
+}
+
+.feed {
+    background-color: #EA5045;
+    width: 90vw;
+/*    height: 36vw;*/
+    margin: 5vw;
+    margin-top: 2vw;
+    padding-top: 0.4vw;
+
+}
+
+.feed_overskrift {
+    margin: 2vw;
+    border-bottom: 0.1vw solid white;
+    padding: 1vw;
+
+
+}
+
+.feed_text {
+    margin: 2vw;
+    margin-top: 2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 12px;
+}
+
+.chat_home {
+
+    background-color: darkgray;
+    width: 90vw;
+    height: 20vw;
+    margin: 5vw;
+    margin-top: -2vw;
+    ´
+}
+
+
+.overskrifter {
+    margin: 2vw;
+    margin-top: 2vw;
+
+}
+
+.afleveringer {
+
+    background-color: darkgray;
+    width: 90vw;
+    height: 20vw;
+    margin: 5vw;
+    margin-top: -2vw;
+
+}
+
+/* ------------------------ SKEMA ------------------------------ */
+
+
+
+.month1 {
+
+    text-align: center;
+    background-color: #2f2d2d;
+    padding-top: 2vw;
+    padding-bottom: 7vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    height: 3vw;
+
+
+}
+
+
+
+.month1 ul {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.month1 ul li {
+    color: white;
+    font-size: 7vw;
+    text-transform: uppercase;
+    letter-spacing: 0.2vw;
+    font-family: arial;
+
+
+
+}
+
+.month1 .prev {
+    float: left;
+
+}
+
+.month1 .next {
+    float: right;
+
+
+}
+
+.daysandweeks {
+
+    display: flex;
+    margin-left: -1.7vw;
+    padding: 2vw;
+
+}
+
+.weekdays {
+    margin: 0;
+    background-color: darkgrey;
+    height: 6vw;
+    padding-top: 1vw;
+
+
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 10%;
+    color: white;
+    text-align: center;
+    font-family: arial;
+    font-size: 15px;
+    margin-left: 2.25vw;
+    padding-left: 0.2vw;
+    ;
+
+}
+
+.weeks {
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    list-style: none;
+    background-color: white;
+    margin-left: -5vw;
+    padding-right: 5vw;
+    border-right: 0.1vw solid grey;
+    margin-top: 1.7vw;
+
+
+
+}
+
+.weeks li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 5.2vw;
+    font-size: 3.5vw;
+    color: red;
+    font-family: arial;
+
+}
+
+.days {
+    padding: 1vw 0;
+    background: #ffffff;
+    margin: 0;
+    font-family: arial;
+    font-weight: 800;
+
+
+
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 11.5%;
+    text-align: center;
+    margin-bottom: 4vw;
+    font-size: 3.5vw;
+    color: #777;
+    padding: 0.6vw;
+}
+
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white;
+}
+
+.skema {
+
+    background-color: black;
+    color: #444;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 3.75vw;
+    transition: 0.4s;
+    width: 90vw;
+    height: 185vw;
+    margin: 5vw;
+    padding-left: 2vw;
+
+}
+
+.opacity_50 {
+    opacity: 0.5;
+}
+
+
+.time_et {
+
+    margin-bottom: 3.5vw;
+    border-bottom: 0.1vw solid white;
+    width: 80vw;
+    height: 2vw;
+    margin-left: 4vw;
+
+}
+
+
+/*Afleveringer*/
+
+/*______________________________AFLEVERING______________________*/
+
+
+#lever_opgave p,
+#lever_opgave h3,
+#tidligere_afleveringer p,
+#tidligere_afleveringer h3 {
+	color: white;
+	font-family: arial, sans-serif;
+	font-size: 12px;
+}
+
+
+/*______________________________lever opgave______________________*/
+
+.dangensafleveringer {
+    background-color: #EA5045;
+    color: #444;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    width: 90vw;
+    height: 24vh;
+    margin: 5vw;
+    margin-bottom: 3.5vw;
+}
+
+
+.dagensafl {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -2vw;
+
+}
+
+.dagensafl_right {
+
+    width: 10vw;
+    height: 19vw;
+    flex-wrap: wrap;
+    flex-grow: 5;
+    padding-left: 3vw;
+    margin-top: 2vw;
+    margin: 2vw;
+    font-size: 4VW;
+    padding-top: 3.75VW;
+    margin-top: 5vw;
+    color: white;
+    font-family: arial;
+
+}
+
+.dagensafl_left {
+
+    width: 10vw;
+    height: 16vw;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    border-right: 0.1vw solid white;
+    margin-top: 5vw;
+    text-align-last: center;
+    padding: 2vw;
+    padding-top: 4vw;
+    line-height: 8.75VW;
+    color: white;
+    font-family: arial;
+}
+
+
+
+
+/*______________________________tidligere afleveringer______________________*/
+.tidligere_afleveringer {
+	background-color: black;
+	height: 47vh;
+    width: 90vw;
+    margin: 5vw;
+}
+
+.tidligere_afleveringer h3 {
+	font-size: 5vw;
+	padding-top: 4vw;
+    padding-bottom: 3vw;
+	padding-left: 3vw;
+    margin: 2vw;
+	border-bottom: .01vw solid white;
+    font-family: arial;
+    margin-bottom: 4vw;
+
+}
+
+.animation img {
+    width: 5vw;
+    height: 5vw;
+}
+
+.webside img {
+    width: 5vw;
+    height: 5vw;
+}
+
+.ditspil img {
+    width: 5vw;
+    height: 5vw;
+}
+
+.jannickspil img {
+    width: 5vw;
+    height: 5vw;
+}
+
+.redesign img {
+    width: 5vw;
+    height: 5vw;
+}
+
+
+.webside {
+    width: 68vw;
+    margin-left: 5vw;
+}
+
+.redesign {
+    width: 68vw;
+    margin-left: 5vw;
+}
+
+.animation {
+    margin-left: 5vw;
+    width: 68vw;
+}
+
+.ditspil {
+    margin-left: 5vw;
+    width: 68vw;
+}
+
+.jannickspil {
+    margin-left: 5vw;
+    width: 68vw;
+}
+
+.dagensaflh3 {
+    font-size: 3vw;
+	padding-top: 4vw;
+    padding-bottom: 3vw;
+	padding-left: 3vw;
+    font-family: arial;
+    color: white
+}
+/*------------------------------- aflevering slutt-------------------------*/
+
+
+/* ------------------------ KONTAKT ------------------------------ */
+
+
+
+
+.mindre_overskrifter {
+    color: #EA5045;
+    font-size: 12px;
+    text-transform: full-width;
+    font-family: arial;
+    letter-spacing: 1px;
+    list-style: none;
+}
+
+
+
+/* -------------------------------- */
+
+
+.kontakt_aabningstider {
+
+    background-color: black;
+    width: 90vw;
+    height: 235vw;
+    margin: 5vw;
+    padding-bottom: 10vw;
+    color: white;
+    font-family: arial;
+}
+
+.kontakt_aabningstider_overskrift {
+    margin: 3vw;
+    margin-top: 2vw;
+    border-bottom: 0.1vw solid white;
+    padding: 3vw;
+    color: white;
+    font-family: arial;
+
+}
+
+.kontakt_aabningstider_text {
+    margin: 3vw;
+    margin-top: 2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 3.75VW;
+    line-height: 5.25VW;
+    color: white;
+    font-family: arial;
+}
+
+/* -------------------------------- */
+
+.fejl_og_mangler {
+
+    background-color: #EA5045;
+    width: 90vw;
+    height: 80vw;
+    margin: 5vw;
+    margin-top: 2vw;
+    color: white;
+    font-family: arial;
+
+}
+
+.f_o_m_overskrift {
+    margin: 3vw;
+    margin-top: 2vw;
+    border-bottom: 0.1vw solid white;
+    padding: 3vw;
+    color: white;
+    font-family: arial;
+
+
+
+}
+
+.f_o_m_text {
+    margin: 3vw;
+    margin-top: 2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 3.5VW;
+    line-height: 5.2vw;
+    color: white;
+    font-family: arial;
+}
+
+
+/* -------------------------------- */
+
+.kontakt_dsr {
+
+    background-color: #3F3140;
+    width: 90vw;
+    height: 90vw;
+    margin: 5vw;
+    margin-top: -2vw;
+    color: white;
+    font-family: arial;
+
+
+}
+
+
+.kontakt_dsr_overskrift {
+    margin: 3vw;
+    margin-top: 2vw;
+    border-bottom: 0.1vw solid white;
+    padding: 3vw;
+    color: white;
+    font-family: arial;
+
+}
+
+
+.kontakt_dsr_text {
+    margin: 3vw;
+    margin-top: 2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 3vw;
+    line-height: 5vw;
+    color: white;
+    font-family: arial;
+}
+
+/* -------------------------------- */
+
+
+.kontakt_studie_overskrift {
+    margin: 3vw;
+    margin-top: 2vw;
+    border-bottom: 0.1vw solid white;
+    padding: 3vw;
+    font-size: 3.3vw;
+    color: white;
+    font-family: arial;
+
+}
+
+.kontakt_studie {
+
+    background-color: black;
+    width: 90vw;
+    height: 206vw;
+    margin: 5vw;
+    margin-top: 2vw;
+    color: white;
+    font-family: arial;
+}
+
+.kontakt_studie_text {
+    margin: 3vw;
+    margin-top: 2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 3.5vw;
+    line-height: 5.2vw;
+    color: white;
+    font-family: arial;
+}
+
+/* ----------------------------------------------------------- */
+
 
 
