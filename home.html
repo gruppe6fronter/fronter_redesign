@@ -207,7 +207,7 @@ lavede i går.
             document.querySelector(".accordion").style.top = "160vw";
             document.querySelector(".dangensskema").style.height = "67vh";
             document.querySelector(".arrowdown").classList.toggle("arrowdown_ned");
-
+document.querySelector(".panel1").classList.toggle("hide");
             document.querySelector(".accordion").addEventListener("click", hidePanel);
         }
 
@@ -223,20 +223,20 @@ lavede i går.
 
 
             document.querySelector(".accordion_feed").addEventListener("click", hideFeed);
-            document.querySelector(".panel2").classList.toggle("hide")
+            document.querySelector(".panel2").classList.toggle("hide");
             document.querySelector(".feed").style.height = "53vw";
             document.querySelector(".accordion_feed").style.top = "18vw";
             document.querySelector(".arrowdown_feed").classList.toggle("arrowdown_ned");
-            }
+        }
 
 
         function hideFeed(){
-              document.querySelector(".accordion_feed").removeEventListener("click", hideFeed);
+                      document.querySelector(".accordion_feed").removeEventListener("click", hideFeed);
                         document.querySelector(".feed").style.height = "36vw";
             document.querySelector(".accordion_feed").style.top = "0vw";
             document.querySelector(".accordion_feed").addEventListener("click", expandFeed);
 
-            document.querySelector(".panel2").classList.toggle("hide")
+            document.querySelector(".panel2").classList.toggle("hide");
 
  document.querySelector(".arrowdown_feed").classList.toggle("arrowdown_ned");
 
@@ -254,8 +254,7 @@ lavede i går.
         document.querySelector(".dangensskema").style.height = "85vh";
         document.querySelector(".accordion").style.top = "200vw";
      document.querySelector(".timefortime_bg_udvid").style.height = "54.50vw";
-     document.querySelector(".timefortime_panel").classList.toggle("hide")
-            document.querySelector(".panel1").classList.toggle("hide");
+     document.querySelector(".timefortime_panel").classList.toggle("hide");
 
         }
 
@@ -266,7 +265,7 @@ lavede i går.
         document.querySelector(".dangensskema").style.height = "67vh";
         document.querySelector(".accordion").style.top = "160vw";
      document.querySelector(".timefortime_bg_udvid").style.height = "10vw";
-document.querySelector(".timefortime_panel").classList.toggle("hide")
+document.querySelector(".timefortime_panel").classList.toggle("hide");
 
         }
 
